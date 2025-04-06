@@ -1,45 +1,51 @@
-🔺 Instruction Compiler 🔺
-Instruction Compiler is a simple compiler-like application built using Flex (Lex) and Bison (Yacc) in C to parse and evaluate arithmetic instructions in a custom 3-address format.
+# 🔺 Instruction Compiler 🔺
 
-✨ Features
+**Instruction Compiler** is a simple compiler-like application built using **Flex (Lex)** and **Bison (Yacc)** in **C** to parse and evaluate arithmetic instructions in a custom 3-address format.
+
+---
+
+## ✨ Features
+
 ✅ Parses user-friendly input like:
 
-ini
+z = 5 * 6 + 2
+
+yaml
 Copy
 Edit
-z = a * b + c
-✅ Generates three-address code (3AC) for the instruction
 
-✅ Displays pseudo assembly–style intermediate code
+✅ Generates **three-address code (3AC)** for the instruction
 
-✅ Computes and displays the final numeric result
+✅ Displays **pseudo assembly–style** intermediate code
 
-✅ Shows the total number of tokens parsed
+✅ Computes and displays the **final numeric result**
 
-📂 Project Structure
-bash
+✅ Shows the **total number of tokens parsed**
+
+---
+
+## 📂 Project Structure
+
+instruction-compiler/ ├── lexar.l # Flex lexical analyzer rules ├── parser.y # Bison grammar and actions ├── Makefile # Build automation script ├── README.md # This documentation └── (optional) # Any helper headers or scripts
+
+yaml
 Copy
 Edit
-instruction-compiler/
-├── lexar.l        # Flex lexical analyzer rules
-├── parser.y       # Bison grammar and actions
-├── Makefile       # Build automation script
-├── README.md      # This documentation
-└── (optional)     # Any helper headers or scripts
-⚙️ Requirements
-✅ Tools
-flex (v2.6+)
 
-bison (v3.0+)
+---
 
-gcc (or any C compiler supporting C99)
+## ⚙️ Requirements
 
-make (optional)
+### ✅ Tools
 
-🪟 Windows (MSYS2)
-bash
-Copy
-Edit
+- `flex` (v2.6+)
+- `bison` (v3.0+)
+- `gcc` (or any C compiler supporting C99)
+- `make` (optional)
+
+### 🪟 Windows (MSYS2)
+
+```bash
 pacman -Syu
 pacman -S mingw-w64-x86_64-gcc flex bison make
 🐧 Linux (Debian/Ubuntu)
@@ -142,3 +148,6 @@ Girish Kr. Paikra
 Roll Number: 23115035
 B.Tech CSE, NIT Raipur
 
+yaml
+Copy
+Edit

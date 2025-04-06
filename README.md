@@ -108,24 +108,10 @@ Copy
 Edit
 <variable> = <number> * <number> + <number>
 Example:
-
-ini
-Copy
-Edit
 z = 3 * 4 + 1
 Will be computed as:
 
-𝑧
-=
-(
-3
-×
-4
-)
-+
-1
-=
-13
+𝑧=(3×4)+1=13
 z=(3×4)+1=13
 🧹 Cleaning the Build
 To remove generated files:
@@ -148,6 +134,4 @@ Girish Kr. Paikra
 Roll Number: 23115035
 B.Tech CSE, NIT Raipur
 
-yaml
-Copy
-Edit
+

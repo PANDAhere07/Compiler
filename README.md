@@ -8,13 +8,9 @@
 
 ✅ Parses user-friendly input like:
 
-z = 5 * 6 + 2
+z = 5 * 6 - 2
 
-yaml
-Copy
-Edit
 
-✅ Generates **three-address code (3AC)** for the instruction
 
 ✅ Displays **pseudo assembly–style** intermediate code
 
